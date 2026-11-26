@@ -1,0 +1,11 @@
+/* Farm Weather Dashboard styles - mobile first */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.5;
+}
+
+header, footer { padding: 1rem; text-align: center; }
+main { max-width: 1000px; margin: 0 auto; padding: 1rem; }
