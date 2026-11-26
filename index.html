@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Farm Weather & Planting Dashboard - Rwanda</title>
   <link rel="stylesheet" href="css/style.css">
+  <!-- Chart.js (MIT licence), pinned version -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 </head>
 <body>
   <header>
@@ -13,14 +15,58 @@
   </header>
 
   <main>
-    <!-- TODO: district selector, current weather, 7-day forecast -->
-    <!-- TODO: rainfall table with search, sort and filter -->
-    <!-- TODO: crop planting guidance -->
-    <div id="app">Loading...</div>
+    <div id="status" class="status" role="status" aria-live="polite" hidden></div>
+
+    <section class="panel controls">
+      <label>District
+        <select id="district"></select>
+      </label>
+      <label>Crop
+        <select id="crop"></select>
+      </label>
+    </section>
+
+    <section id="current" class="panel"></section>
+    <section id="forecast" class="panel"></section>
+    <section id="advice" class="panel"></section>
+
+    <section class="panel">
+      <h2>Rainfall across districts</h2>
+      <div class="controls">
+        <label>Search
+          <input id="search" type="search" placeholder="Type a district name" maxlength="40">
+        </label>
+        <label>Province
+          <select id="province"><option value="all">All provinces</option></select>
+        </label>
+        <label>Sort by
+          <select id="sort">
+            <option value="rainDesc">Most rain (next 7 days)</option>
+            <option value="rainAsc">Least rain (next 7 days)</option>
+            <option value="past30">Most rain (last 30 days)</option>
+            <option value="tempDesc">Warmest</option>
+            <option value="name">Name (A-Z)</option>
+          </select>
+        </label>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>District</th><th>Province</th><th>Next 7 days</th><th>Last 30 days</th><th>Avg temp</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+      <p id="no-results" hidden>No districts match your search.</p>
+      <small>Click a row to view that district.</small>
+    </section>
   </main>
 
   <footer>
-    <p>Weather data by <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
+    <p>Weather data by <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>
+       (CC BY 4.0). Charts by <a href="https://www.chartjs.org/" target="_blank" rel="noopener">Chart.js</a>.</p>
     <p id="served-by"></p>
   </footer>
 
