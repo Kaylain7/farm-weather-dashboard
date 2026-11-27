@@ -1,147 +1,9 @@
 [
   {
-    "name": "Gasabo",
-    "province": "Kigali City",
-    "lat": -1.7938,
-    "lon": 30.1406
-  },
-  {
-    "name": "Kicukiro",
-    "province": "Kigali City",
-    "lat": -1.977,
-    "lon": 30.1118
-  },
-  {
-    "name": "Nyarugenge",
-    "province": "Kigali City",
-    "lat": -2.2009,
-    "lon": 29.9133
-  },
-  {
-    "name": "Nyanza",
-    "province": "Southern",
-    "lat": -2.3519,
-    "lon": 29.7509
-  },
-  {
-    "name": "Gisagara",
-    "province": "Southern",
-    "lat": -3.3504,
-    "lon": 29.9273
-  },
-  {
-    "name": "Huye",
-    "province": "Southern",
-    "lat": -2.5805,
-    "lon": 29.716
-  },
-  {
-    "name": "Nyamagabe",
-    "province": "Southern",
-    "lat": -2.4691,
-    "lon": 29.5946
-  },
-  {
-    "name": "Ruhango",
-    "province": "Southern",
-    "lat": -2.2569,
-    "lon": 29.7865
-  },
-  {
-    "name": "Muhanga",
-    "province": "Southern",
-    "lat": -2.0227,
-    "lon": 29.7069
-  },
-  {
-    "name": "Kamonyi",
-    "province": "Southern",
-    "lat": -2.0024,
-    "lon": 29.9041
-  },
-  {
-    "name": "Karongi",
-    "province": "Western",
-    "lat": -1.8752,
-    "lon": 29.31
-  },
-  {
-    "name": "Rutsiro",
-    "province": "Western",
-    "lat": -1.9577,
-    "lon": 29.3843
-  },
-  {
-    "name": "Rubavu",
-    "province": "Western",
-    "lat": -3.2604,
-    "lon": 30.4116
-  },
-  {
-    "name": "Nyabihu",
-    "province": "Western",
-    "lat": -2.5726,
-    "lon": 29.345
-  },
-  {
-    "name": "Ngororero",
-    "province": "Western",
-    "lat": -1.8628,
-    "lon": 29.6254
-  },
-  {
-    "name": "Rusizi",
-    "province": "Western",
-    "lat": -2.2135,
-    "lon": 29.6542
-  },
-  {
-    "name": "Nyamasheke",
-    "province": "Western",
-    "lat": -2.3396,
-    "lon": 29.0856
-  },
-  {
-    "name": "Rulindo",
-    "province": "Northern",
-    "lat": -1.721,
-    "lon": 29.9236
-  },
-  {
-    "name": "Gakenke",
-    "province": "Northern",
-    "lat": -1.6483,
-    "lon": 29.7999
-  },
-  {
-    "name": "Musanze",
-    "province": "Northern",
-    "lat": -1.4998,
-    "lon": 29.635
-  },
-  {
-    "name": "Burera",
-    "province": "Northern",
-    "lat": -1.4187,
-    "lon": 29.7501
-  },
-  {
-    "name": "Gicumbi",
-    "province": "Northern",
-    "lat": -3.8214,
-    "lon": 29.4425
-  },
-  {
-    "name": "Rwamagana",
+    "name": "Bugesera",
     "province": "Eastern",
-    "lat": -1.9487,
-    "lon": 30.4347
-  },
-  {
-    "name": "Nyagatare",
-    "province": "Eastern",
-    "lat": -1.2952,
-    "lon": 30.3226
+    "lat": -2.15,
+    "lon": 30.09
   },
   {
     "name": "Gatsibo",
@@ -158,19 +20,163 @@
   {
     "name": "Kirehe",
     "province": "Eastern",
-    "lat": -2.6833,
-    "lon": 31.2
+    "lat": -2.27,
+    "lon": 30.7
   },
   {
     "name": "Ngoma",
     "province": "Eastern",
-    "lat": -1.6741,
-    "lon": 29.2284
+    "lat": -2.16,
+    "lon": 30.54
   },
   {
-    "name": "Bugesera",
+    "name": "Nyagatare",
     "province": "Eastern",
-    "lat": -1.667,
-    "lon": 29.2852
+    "lat": -1.2952,
+    "lon": 30.3226
+  },
+  {
+    "name": "Rwamagana",
+    "province": "Eastern",
+    "lat": -1.9487,
+    "lon": 30.4347
+  },
+  {
+    "name": "Gasabo",
+    "province": "Kigali City",
+    "lat": -1.7938,
+    "lon": 30.1406
+  },
+  {
+    "name": "Kicukiro",
+    "province": "Kigali City",
+    "lat": -1.977,
+    "lon": 30.1118
+  },
+  {
+    "name": "Nyarugenge",
+    "province": "Kigali City",
+    "lat": -1.95,
+    "lon": 30.06
+  },
+  {
+    "name": "Burera",
+    "province": "Northern",
+    "lat": -1.4187,
+    "lon": 29.7501
+  },
+  {
+    "name": "Gakenke",
+    "province": "Northern",
+    "lat": -1.6483,
+    "lon": 29.7999
+  },
+  {
+    "name": "Gicumbi",
+    "province": "Northern",
+    "lat": -1.58,
+    "lon": 30.07
+  },
+  {
+    "name": "Musanze",
+    "province": "Northern",
+    "lat": -1.4998,
+    "lon": 29.635
+  },
+  {
+    "name": "Rulindo",
+    "province": "Northern",
+    "lat": -1.721,
+    "lon": 29.9236
+  },
+  {
+    "name": "Gisagara",
+    "province": "Southern",
+    "lat": -2.6,
+    "lon": 29.83
+  },
+  {
+    "name": "Huye",
+    "province": "Southern",
+    "lat": -2.5805,
+    "lon": 29.716
+  },
+  {
+    "name": "Kamonyi",
+    "province": "Southern",
+    "lat": -2.0024,
+    "lon": 29.9041
+  },
+  {
+    "name": "Muhanga",
+    "province": "Southern",
+    "lat": -2.0227,
+    "lon": 29.7069
+  },
+  {
+    "name": "Nyamagabe",
+    "province": "Southern",
+    "lat": -2.4691,
+    "lon": 29.5946
+  },
+  {
+    "name": "Nyanza",
+    "province": "Southern",
+    "lat": -2.3519,
+    "lon": 29.7509
+  },
+  {
+    "name": "Nyaruguru",
+    "province": "Southern",
+    "lat": -2.68,
+    "lon": 29.55
+  },
+  {
+    "name": "Ruhango",
+    "province": "Southern",
+    "lat": -2.2569,
+    "lon": 29.7865
+  },
+  {
+    "name": "Karongi",
+    "province": "Western",
+    "lat": -1.8752,
+    "lon": 29.31
+  },
+  {
+    "name": "Ngororero",
+    "province": "Western",
+    "lat": -1.8628,
+    "lon": 29.6254
+  },
+  {
+    "name": "Nyabihu",
+    "province": "Western",
+    "lat": -1.66,
+    "lon": 29.5
+  },
+  {
+    "name": "Nyamasheke",
+    "province": "Western",
+    "lat": -2.3396,
+    "lon": 29.0856
+  },
+  {
+    "name": "Rubavu",
+    "province": "Western",
+    "lat": -1.7,
+    "lon": 29.26
+  },
+  {
+    "name": "Rusizi",
+    "province": "Western",
+    "lat": -2.46,
+    "lon": 28.91
+  },
+  {
+    "name": "Rutsiro",
+    "province": "Western",
+    "lat": -1.9577,
+    "lon": 29.3843
   }
 ]
